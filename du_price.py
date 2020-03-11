@@ -2,7 +2,7 @@ import requests
 import json
 import discord
 client = discord.Client()
-bot_token = 'r46wPsN9Batu_nfoxRjL8LuEe78qyTHb'
+bot_token = 'you token here'
 
 @client.event
 async def on_ready():
