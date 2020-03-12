@@ -25,7 +25,8 @@ async def on_member_remove(member):
 @bot.command()
 async def 图片(ctx):
     pic = discord.File('C:\\Users\\Administrator\\Desktop\\头像.jpg')
-    await ctx.send(File = pic)
+    await ctx.send(File=pic)
+
 
 
 
