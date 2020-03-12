@@ -23,7 +23,10 @@ async def on_member_remove(member):
 # 'ping'就是用于控制bot回复的指令名称，可使用任意名称
 # ctx包含了使用者，id，所在服务器，所在频道等信息，用于提示bot在哪里进行回复
 @bot.command()
-async def ping(ctx):
-    await ctx.send('hello')
+async def 图片(ctx):
+    pic = discord.File('C:\\Users\\Administrator\\Desktop\\头像.jpg')
+    await ctx.send(File = pic)
 
-bot.run('Njg2MjQ4MDc5NzExNTM1MTQ2.XmUc3g.k_de2UrgbcMFSMTCNFmZbf4DnQE')
+
+
+bot.run('you token here')
